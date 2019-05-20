@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*
+	CSS Document for when user has javascript enabled
+	Make all of the tags that use javascript visible to user, plus hide all forms that are not currently being looked at by the user
+*/
+
+#stockShopForm
+{
+	display:block;
+}
+#returnsForm
+{
+	display:none;
+}
+#deliveryForm
+{
+	display:none;
+}
+#stockFullForm
+{
+	display:none;
+}
+#deleteRecordForm
+{
+	display:none;
+}
+
+#modifyProductForm
+{
+	display:block;
+}
+#productDeleteForm
+{
+	display:none;
+}
+#addUserForm
+{
+	display:none;
+}
+#modifyUserForm
+{
+	display:none;
+}
+#deleteUserForm
+{
+	display:none;
+}
+
+.helpButton
+{
+	display: inline-block;
+	background-color: #ff9227;
+	border: solid brown 0.1em;
+	margin-left: 0.3em;
+	padding-top: 0.1em;
+	padding-right: 0.3em;
+	padding-bottom: 0.1em;
+	padding-left: 0.3em;
+}
+
+.errorJS
+{
+	color:red;
+	padding-top:0.2em;
+	display:block;
+}
+
+#printPageButton
+{
+	display:block;
+	margin-left:45%;
+}
+
+#printPageInfo
+{
+	display:none;
+}
+
+#adminSelect
+{
+	display:block;
+}
+
+#modifySelect
+{
+	display:block;
+}

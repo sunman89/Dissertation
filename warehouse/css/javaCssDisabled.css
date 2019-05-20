@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* 
+	CSS Document for when user has javascipt disabled
+	Mainly hide parts of the pages that will not work without javascript and to make all the forms visible
+*/
+
+
+#stockShopForm
+{
+	display:block;
+}
+#returnsForm
+{
+	display:block;
+}
+#deliveryForm
+{
+	display:block;
+}
+#stockFullForm
+{
+	display:block;
+}
+#deleteRecordForm
+{
+	display:block;
+}
+
+#modifyProductForm
+{
+	display:block;
+}
+#productDeleteForm
+{
+	display:block;
+}
+#addUserForm
+{
+	display:block;
+}
+#modifyUserForm
+{
+	display:block;
+}
+#deleteUserForm
+{
+	display:block;
+}
+
+.helpButton
+{
+	display:none;
+	background-color: #ff9227;
+	padding:0.3em;
+	margin-left:0.3em;
+}
+
+#printPageButton
+{
+	display:none;
+}
+
+#printPageInfo
+{
+	display:block;
+}
+
+#adminSelect
+{
+	display:none;
+}
+
+#modifySelect
+{
+	display:none;
+}

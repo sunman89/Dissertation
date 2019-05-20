@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* 
+	CSS Document For When User Prints a page from
+	Mainly to make things on the page become invisible so as to not be displayed on the printed page
+ */
+
+#footer
+{
+	display:none;
+}
+
+#printPageButton
+{
+	display:none;
+}
+
+#printPageInfo
+{
+	display:none;
+}

@@ -1,0 +1,396 @@
+@charset "utf-8";
+/* CSS Document for handheld devices */
+/* 
+	Reset rules.
+	Reference: http://meyerweb.com/eric/tools/css/reset/ 
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section 
+{
+	display: block;
+}
+body 
+{
+	line-height: 1;
+}
+ol, ul 
+{
+	list-style: none;
+}
+blockquote, q 
+{
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after 
+{
+	content: '';
+	content: none;
+}
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#page 
+{
+	background-color: #ffbd27;
+	margin:2%;
+}
+
+
+body 
+{ 
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+}
+
+#header
+{
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	border-bottom-width: 0.2em;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	margin-bottom: 1em;
+	margin-left:5em;
+	margin-right:5em;
+}
+
+h1 
+{
+	font-size: 2em;
+	font-weight: bold;
+	text-align:center;
+}
+
+p, ul, ol 
+{ 
+	margin-bottom: 1em; 
+	font-size: 0.875em;
+}
+
+p
+{
+	padding:0.1em;
+	margin:0.5em;
+}
+
+#contentArea 
+{
+	margin: 0.2em;
+	padding: 0.2em;
+}
+
+fieldset
+{
+	display:block;
+	border-bottom-width:0.2em;
+	border-top-width:0.2em;
+	border-left-width:0.2em;
+	border-right-width:0.2em;
+	border-style:solid;
+	border-color: #D09D28;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				
+	background-color: #ffe027;
+	padding:1em;
+}
+
+.exit 
+{
+	float: left;
+	width: 30%;
+	display:inline-block;
+	text-align:center;
+	background-color: #FFE027;
+	text-decoration:none;
+	padding:0.3em;
+}
+.back 
+{
+	float: right;
+	width: 30%;
+	display:inline-block;
+	text-align:center;
+	background-color: #FFE027;
+	padding:0.3em;
+}
+#footer
+{
+	overflow:hidden;
+	margin-top: 1em;
+	font-size:1.2em;
+}
+
+a
+{
+	text-decoration:none;
+	color: #24377A;	
+}
+label
+{
+	display: inline-block;
+	width:5em;
+}
+input
+{
+	display: inline-block;
+}
+
+h3
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align:center;	
+	margin-bottom:1em;
+}
+
+/*
+	Pop Up = gotten from www.w3schools.com/howto/howto_js_popup.asp
+*/
+/* Popup container */
+.popup 
+{
+	display:none;
+	margin-left: 30%;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext
+{
+	width:30%;
+	background-color:#555;
+	color: #fff;
+	text-align:center;
+	border-radius: 1em;
+	padding:1em;
+	position:absolute;
+}
+
+.popup a
+{
+	text-decoration:none;
+	color:#fff;
+	background-color:#009;
+	padding:0.4em;
+}
+
+/*
+	Log In page
+*/
+.logError 
+{
+	color: #ff4500;
+	text-align: center;
+	font-weight:bold;
+	padding-top:1em;
+}
+
+#logForm
+{
+	margin-left: 5%;
+}
+.logBut
+{
+	margin-left:40%;
+}
+/*
+	Menu page
+*/
+
+.menuU
+{
+	text-align:center;
+	margin-top:1em;
+	width:15em;
+	margin-left:20%;
+	background-color:#ffe027;
+																															
+}
+.menuL
+{
+	font-size:1.2em;
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+	border-bottom:solid #ffbd27 0.2em;
+	margin-left:0.3em;
+	margin-right:0.3em;
+}
+
+.menuLast
+{
+	font-size:1.2em;
+	padding:0.2em;
+	margin-left:0.3em;
+	margin-right:0.3em;
+}
+
+.required
+{
+	color: red;
+	vertical-align: super;
+}
+
+#addProductForm
+{
+	width: 100%;
+}
+
+#addDeliveryForm
+{
+	width: 100%;
+}
+
+#addReturnsForm
+{
+	width: 100%;
+}
+
+#returnsSelect label
+{
+	width:40%;
+}
+
+.errorJS
+{
+	font-size:0.8em;
+}
+
+#titleCheckForm
+{
+	width: 100%;
+}
+
+#printPageButton
+{
+	padding:0.2em;
+	margin-bottom:1em;
+}
+
+table
+{
+	border: 0.1em solid #000;
+	text-align:center;
+	width:100%;
+}
+
+th
+{
+	border: 0.1em solid #000;
+	padding:0.5em;
+}
+
+td
+{
+	border: 0.1em solid #000;
+	padding:0.2em;
+}
+
+#transferStockForm
+{
+	width: 100%;
+}
+
+#transferLocationSelect label
+{
+	width:25%;
+}
+
+.getProduct
+{
+	font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.enquiriesMenu
+{
+	text-align:center;
+	padding-bottom:0.2em;
+}
+
+.enquiriesMenu li
+{
+	padding-bottom:0.5em;
+}
+
+#enquiryDeliveryForm
+{
+	width: 100%;
+}
+
+#enquiryReturnForm
+{
+	width: 100%;
+}
+
+.enquiryCenter
+{
+	text-align:center;
+}
+
+#modifySelect
+{
+	margin-left:30%;
+}
+
+#adminSelect
+{
+	margin-left:30%;
+}
+
+
+
+.changes p
+{
+	padding-bottom:0.5em;
+	margin:0;
+}
+
+.original p
+{
+	padding-bottom:0.5em;
+	margin:0;
+}
+
+.modifyStockQuantity
+{
+	width:25%;
+}
+
+.adminCenter
+{
+	text-align:center;
+}
+
+/*
+	Got this from www.w3schools.com/howto/howto_css_table_responsive.asp
+*/
+.smallScreen
+{
+	overflow: auto;	
+}
+
