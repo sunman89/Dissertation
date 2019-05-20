@@ -74,8 +74,8 @@
 		// Clean up inputs and get todays date, and get the date for the products stock to be returned
 		$clean['date'] = getCurrentDate();
 		$clean['return'] = getReturnDate($clean['date']);
-		$clean['barcode'] = htmlspecialchars(($_POST['barcode']));
-		$clean['quantity'] = htmlspecialchars(($_POST['quantity']));
+		$clean['barcode'] = htmlspecialchars($_POST['barcode']);
+		$clean['quantity'] = htmlspecialchars($_POST['quantity']);
 		$clean['issue'] = '';
 		
 		// Check if barcode is not empty

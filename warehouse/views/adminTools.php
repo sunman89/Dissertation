@@ -441,8 +441,8 @@
 						{
 							$output .= 'The barcode has been changed from "' . htmlentities($clean['barcode']) .
 							'" to "' . htmlentities($clean['barcodeChange']) .
-							 '" for the Products Table and all tables that contain this product' . '%0A';
-							htmlentities($clean['barcode']) = htmlentities($clean['barcodeChange']);
+							 '" for the Products Table and all tables that contain this product' . '%0A' ; 
+							$clean['barcode'] = htmlentities($clean['barcodeChange']);
 						}
 						else
 						{

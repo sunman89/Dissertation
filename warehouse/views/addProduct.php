@@ -59,9 +59,9 @@
 	if(isset($_POST['addProductToTable']))
 	{
 		// Clean up the inputs entered by the user
-		$clean['barcode'] = htmlspecialchars(($_POST['barcode']));
-		$clean['title'] = htmlspecialchars(($_POST['title']));
-		$clean['price'] = htmlspecialchars(($_POST['price']));
+		$clean['barcode'] = htmlspecialchars($_POST['barcode']);
+		$clean['title'] = htmlspecialchars($_POST['title']);
+		$clean['price'] = htmlspecialchars($_POST['price']);
 		
 		// Test if barcode was not empty
 		if(!empty($clean['barcode']))
